@@ -15,6 +15,8 @@ public class ThreadDead implements Runnable{
 		synchronized (Integer.valueOf(a)) {
 			synchronized (Integer.valueOf(b)) {
 				System.out.println("a=" + a + "b=" + b);
+				System.out.println("new ");
+				
 			}
 		}
 	}
